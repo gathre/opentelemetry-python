@@ -41,7 +41,7 @@ def get_baggage(name: str, context: Context | None = None) -> object | None:
         context: The Context to use. If not set, uses current Context
 
     Returns:
-        The value associated with the given name, or null if the given name is
+        The value associated with the given name, or None if the given name is
         not present.
     """
     return _get_baggage_value(context=context).get(name)

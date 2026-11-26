@@ -45,7 +45,7 @@ _RUNTIME_CONTEXT = _load_runtime_context()
 
 
 def create_key(keyname: str) -> str:
-    """To allow cross-cutting concern to control access to their local state,
+    """To allow cross-cutting concerns to control access to their local state,
     the RuntimeContext API provides a function which takes a keyname as input,
     and returns a unique key.
     Args:
